@@ -86,6 +86,7 @@ header {
 }
 
 footer {
+  min-height: 100px;
   background: #161616;
   color: #fff;
   justify-content: space-between;
