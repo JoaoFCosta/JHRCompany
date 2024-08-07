@@ -79,16 +79,35 @@ header {
 }
 
 .SocialMedia {
-    text-decoration: none;
-    color: #Fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 footer {
-    background: #161616;
-    min-height: 400px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-top: 56px;
+  background: #161616;
+  min-height: 100px;
+  color: #fff;
+  justify-content: space-between;
 }
 
+
+footer #dados {
+  display: flex;
+  flex-direction: column;
+}
+
+#dados h2,
+#dados h3 {
+    margin: 0 4%;
+    font-size: 14px;
+}
+
+#dados h2 {
+    color: #5941cf;
+}
+
+#copyright {
+    text-align: center;
+    margin: 0 auto 10px;
+}
